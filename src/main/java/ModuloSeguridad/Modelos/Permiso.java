@@ -12,6 +12,9 @@ public class Permiso {
     private String url;
     private String metodo;
 
+    public Permiso() {
+    }
+
     public Permiso(String url, String metodo) {
         this.url = url;
         this.metodo = metodo;
